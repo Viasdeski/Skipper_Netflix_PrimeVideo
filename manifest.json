@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Skipper",
+    "version": "1.0",
+    "description": "Automate your Netflix and Prime Video experience by skipping intros and moving to the next episode automatically",
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "storage"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["*://www.primevideo.com/*", "*://www.netflix.com/*"],
+        "js": ["/scripts/content.js"]
+      }
+    ],
+    "icons": {
+        "128": "/img/icon.png"
+      },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  

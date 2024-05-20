@@ -1,0 +1,11 @@
+{
+  "name": "skipper",
+  "version": "1.0.0",
+  "description": "Automatically clicks to skip the opening and go to the next episode on Netflix",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vitor Viasdeski Monteiro",
+  "license": "ISC"
+}
